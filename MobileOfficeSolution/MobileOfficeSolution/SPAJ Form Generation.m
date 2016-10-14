@@ -336,8 +336,8 @@ NSString* const Ringkasan = @"page_ringkasan_pembelian";
 
     -(void)setNavigationBar{
         [self.navigationItem setTitle:@"eApplication Forms Generation"];
-        [self.navigationController.navigationBar setTitleTextAttributes:
-         @{NSForegroundColorAttributeName:[formatter navigationBarTitleColor],NSFontAttributeName: [formatter navigationBarTitleFont]}];
+//        [self.navigationController.navigationBar setTitleTextAttributes:
+//         @{NSForegroundColorAttributeName:[formatter navigationBarTitleColor],NSFontAttributeName: [formatter navigationBarTitleFont]}];
     }
 
     // ACTION

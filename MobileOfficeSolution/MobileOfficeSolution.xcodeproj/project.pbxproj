@@ -1939,15 +1939,15 @@
 			isa = PBXGroup;
 			children = (
 				DE5F7AE71DB0A04F006DC32F /* libstdc++.tbd */,
-				DEDC621D1DAF86600033FE37 /* CoreData.framework */,
 				DEDC601B1DAF4FC70033FE37 /* libHtmlGenerator.a */,
 				DEDC60121DAE601A0033FE37 /* libsqlite3.tbd */,
 				DEDC5FF01DAE565D0033FE37 /* libFTPFileSynchronization.a */,
+				DEDC5D861DAE3D7F0033FE37 /* libxml2.tbd */,
+				DEDC621D1DAF86600033FE37 /* CoreData.framework */,
 				DEDC5E4B1DAE44F40033FE37 /* CoreGraphics.framework */,
 				DEDC5D471DAE3C4D0033FE37 /* CFNetwork.framework */,
 				DEDC5DA61DAE40450033FE37 /* Foundation.framework */,
 				DEDC5D9B1DAE40060033FE37 /* UIKit.framework */,
-				DEDC5D861DAE3D7F0033FE37 /* libxml2.tbd */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

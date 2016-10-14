@@ -79,13 +79,11 @@
     btnProspect.enabled = NO;
     
     NSMutableDictionary *newAttributes = [[NSMutableDictionary alloc] init];
-//    [newAttributes setObject:[UIFont systemFontOfSize:17] forKey:UITextAttributeFont];
-//    [self.navigationBar setTitleTextAttributes:newAttributes];
 
-    [[UINavigationBar appearance] setTitleTextAttributes:@{
-                                                           NSForegroundColorAttributeName: [UIColor colorWithRed:88.0f/255.0f green:89.0f/255.0f blue:92.0f/255.0f alpha:1],
-                                                           NSFontAttributeName: [UIFont fontWithName:@"BPreplay" size:17.0f]
-                                                           }];
+//    [[UINavigationBar appearance] setTitleTextAttributes:@{
+//                                                           NSForegroundColorAttributeName: [UIColor colorWithRed:88.0f/255.0f green:89.0f/255.0f blue:92.0f/255.0f alpha:1],
+//                                                           NSFontAttributeName: [UIFont fontWithName:@"BPreplay" size:17.0f]
+//                                                           }];
     
     
     
@@ -105,31 +103,6 @@
     
     TanggalIllustrasi.enabled = NO;
 
-    
-//    NSString*test;
-//    NSString*test1;
-//    
-//    NSArray *paths2 = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
-//    NSString *docsPath2 = [paths2 objectAtIndex:0];
-//    NSString *path2 = [docsPath2 stringByAppendingPathComponent:@"BCA_Rates.sqlite"];
-//    
-//    
-//    FMDatabase *database = [FMDatabase databaseWithPath:path2];
-//    [database open];
-//    FMResultSet *results;
-//    results = [database executeQuery:@"select BasicCode,Male from BasicPremiumRate"];
-//    
-//    FMDatabase *database1 = [FMDatabase databaseWithPath:path2];
-//    if (![database open]) {
-//        NSLog(@"Could not open db.");
-//    }
-//    
-//    while([results next])
-//        
-//    {
-//        test  = [results stringForColumn:@"BasicCode"];
-//        test1  = [results stringForColumn:@"Male"];
-//    }
     [self loadDataFromList];
     [_delegate setQuickQuoteValue:[quickQuoteFlag isOn]];
 }

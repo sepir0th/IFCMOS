@@ -120,8 +120,8 @@
 
 -(void)setNavigationBar{
     [self.navigationItem setTitle:@"To Obtain e-Signatures From Respective Parties"];
-    [self.navigationController.navigationBar setTitleTextAttributes:
-     @{NSForegroundColorAttributeName:[formatter navigationBarTitleColor],NSFontAttributeName: [formatter navigationBarTitleFont]}];
+//    [self.navigationController.navigationBar setTitleTextAttributes:
+//     @{NSForegroundColorAttributeName:[formatter navigationBarTitleColor],NSFontAttributeName: [formatter navigationBarTitleFont]}];
 }
 
 -(void)initializeBooleanBasedOnTheRule{

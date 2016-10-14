@@ -110,8 +110,8 @@ NSString* const Back = @"Back";
 
     -(void)setNavigationBar{
         [self.navigationItem setTitle:@"Capture Identification Documents"];
-        [self.navigationController.navigationBar setTitleTextAttributes:
-         @{NSForegroundColorAttributeName:[formatter navigationBarTitleColor],NSFontAttributeName: [formatter navigationBarTitleFont]}];
+//        [self.navigationController.navigationBar setTitleTextAttributes:
+//         @{NSForegroundColorAttributeName:[formatter navigationBarTitleColor],NSFontAttributeName: [formatter navigationBarTitleFont]}];
     }
 
     -(NSString *)getIDTypeForPemegangPolis{

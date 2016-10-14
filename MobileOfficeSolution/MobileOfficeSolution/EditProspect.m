@@ -2215,13 +2215,13 @@ bool PolicyOwnerSigned = TRUE;
     
     NSDictionary *attributes = [NSDictionary dictionaryWithObject:font
                                                            forKey:UITextAttributeFont];
-    [segSmoker setTitleTextAttributes:attributes
-                             forState:UIControlStateNormal];
-    [segRigPerson setTitleTextAttributes:attributes
-								forState:UIControlStateNormal];
-    
-    [segGender setTitleTextAttributes:attributes
-                             forState:UIControlStateNormal];
+//    [segSmoker setTitleTextAttributes:attributes
+//                             forState:UIControlStateNormal];
+//    [segRigPerson setTitleTextAttributes:attributes
+//								forState:UIControlStateNormal];
+//    
+//    [segGender setTitleTextAttributes:attributes
+//                             forState:UIControlStateNormal];
     
     pp.OtherIDType = [pp.OtherIDType uppercaseString];
     

@@ -348,8 +348,8 @@ bool RegDatehandling;
 
     self.navigationItem.leftBarButtonItem.tintColor = borderColor;
 	self.navigationItem.rightBarButtonItem.tintColor = borderColor;
-    [self.navigationController.navigationBar setTitleTextAttributes:
-     @{NSForegroundColorAttributeName:[UIColor colorWithRed:88.0f/255.0f green:89.0f/255.0f blue:92.0f/255.0f alpha:1],NSFontAttributeName: [UIFont fontWithName:@"BPreplay" size:17.0f]}];
+//    [self.navigationController.navigationBar setTitleTextAttributes:
+//     @{NSForegroundColorAttributeName:[UIColor colorWithRed:88.0f/255.0f green:89.0f/255.0f blue:92.0f/255.0f alpha:1],NSFontAttributeName: [UIFont fontWithName:@"BPreplay" size:17.0f]}];
 
     
     NSUserDefaults *ClientProfile = [NSUserDefaults standardUserDefaults];
@@ -1431,8 +1431,8 @@ bool RegDatehandling;
     
     NSDictionary *attributes = [NSDictionary dictionaryWithObject:font forKey:UITextAttributeFont];
     
-    [segSmoker setTitleTextAttributes:attributes forState:UIControlStateNormal];
-    [segGender setTitleTextAttributes:attributes forState:UIControlStateNormal];
+//    [segSmoker setTitleTextAttributes:attributes forState:UIControlStateNormal];
+//    [segGender setTitleTextAttributes:attributes forState:UIControlStateNormal];
     
     [super viewWillAppear:animated];
 }

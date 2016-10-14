@@ -97,10 +97,10 @@ bool WPTPD30RisDeleted = FALSE;
 
     CustomColor = [[ColorHexCode alloc] init ];
 
-    [[UINavigationBar appearance] setTitleTextAttributes:@{
-                                                           NSForegroundColorAttributeName: [UIColor colorWithRed:88.0f/255.0f green:89.0f/255.0f blue:92.0f/255.0f alpha:1],
-                                                           NSFontAttributeName: [UIFont fontWithName:@"BPreplay" size:17.0f]
-                                                           }];
+//    [[UINavigationBar appearance] setTitleTextAttributes:@{
+//                                                           NSForegroundColorAttributeName: [UIColor colorWithRed:88.0f/255.0f green:89.0f/255.0f blue:92.0f/255.0f alpha:1],
+//                                                           NSFontAttributeName: [UIFont fontWithName:@"BPreplay" size:17.0f]
+//                                                           }];
     
     
     appDelegate = (AppDelegate*)[[UIApplication sharedApplication] delegate ];
