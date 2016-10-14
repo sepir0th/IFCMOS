@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "DDCF0A5779EE719B3DD070CB8F6C4BBCABB97A08",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "DDCF0A5779EE719B3DD070CB8F6C4BBCABB97A08" : 9223372036854775807,
+    "C5F514DE0EE5E0C019F262AB7A3D515729B5BE38" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "A5029C01-D073-4272-96E1-4BF18365C211",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "DDCF0A5779EE719B3DD070CB8F6C4BBCABB97A08" : "IFC_MOS\/",
+    "C5F514DE0EE5E0C019F262AB7A3D515729B5BE38" : "TMLI_IOS_MPOS\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "MobileOfficeSolution",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "MobileOfficeSolution\/MobileOfficeSolution.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/premnath1989\/TMLI.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C5F514DE0EE5E0C019F262AB7A3D515729B5BE38"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/sepir0th\/IFCMOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "DDCF0A5779EE719B3DD070CB8F6C4BBCABB97A08"
+    }
+  ]
+}
