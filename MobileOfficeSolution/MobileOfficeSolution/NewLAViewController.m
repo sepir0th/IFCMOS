@@ -3075,6 +3075,30 @@
     }
 }
 
+- (IBAction)Hubungan:(id)sender;
+{
+    [self.view endEditing:YES];
+    
+    // _RshipTypePicker.rowToUpdate = _rowToUpdate;
+    if (_RshipTypePicker == nil) {
+        _RshipTypePicker = [[RelationshipPopoverViewController alloc] initWithStyle:UITableViewStylePlain];
+        _RshipTypePicker.delegate = self;
+        //_RshipTypePicker.rowToUpdate = _rowToUpdate;
+    }
+    
+    //if (_RshipTypePickerPopover == nil) {
+    [_RshipTypePicker loadData:numberIntInternalStaff];
+    _RshipTypePickerPopover = [[UIPopoverController alloc] initWithContentViewController:_RshipTypePicker];
+    [_RshipTypePickerPopover presentPopoverFromRect:[sender bounds] inView:sender permittedArrowDirections:UIPopoverArrowDirectionLeft animated:YES];
+    /*} else {
+     [_RshipTypePickerPopover dismissPopoverAnimated:YES];
+     _RshipTypePickerPopover = nil;
+     }*/
+    
+    
+    
+}
+
 - (void)OccupCodeSelected:(NSString *)OccupCode
 {
     

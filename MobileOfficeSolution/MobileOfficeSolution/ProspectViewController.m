@@ -1429,7 +1429,7 @@ bool RegDatehandling;
     //CHANGE SEGMENTATION CONTROL FONT SIZE
     UIFont *font= [UIFont fontWithName:@"BPreplay" size:16.0f];
     
-    NSDictionary *attributes = [NSDictionary dictionaryWithObject:font forKey:UITextAttributeFont];
+//    NSDictionary *attributes = [NSDictionary dictionaryWithObject:font forKey:UITextAttributeFont];
     
 //    [segSmoker setTitleTextAttributes:attributes forState:UIControlStateNormal];
 //    [segGender setTitleTextAttributes:attributes forState:UIControlStateNormal];

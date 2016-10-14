@@ -12,6 +12,9 @@
 		DE5F7AE81DB0A04F006DC32F /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DE5F7AE71DB0A04F006DC32F /* libstdc++.tbd */; };
 		DE5F7AEB1DB0B62C006DC32F /* BCA_Rates.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = DE5F7AE91DB0B548006DC32F /* BCA_Rates.sqlite */; };
 		DE5F7AEC1DB0B62F006DC32F /* DataReferral.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = DE5F7AEA1DB0B548006DC32F /* DataReferral.sqlite */; };
+		DE5F7AF51DB0E3EF006DC32F /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE5F7AF41DB0E3EF006DC32F /* CoreText.framework */; };
+		DE5F7AF71DB0E759006DC32F /* SharedStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE5F7AF61DB0E759006DC32F /* SharedStoryboard.storyboard */; };
+		DE5F7AFA1DB0E942006DC32F /* RelationshipPopoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5F7AF91DB0E942006DC32F /* RelationshipPopoverViewController.m */; };
 		DEC846201DAF99890081DEF7 /* gendb.sh in Resources */ = {isa = PBXBuildFile; fileRef = DEC8461F1DAF99890081DEF7 /* gendb.sh */; };
 		DEDC5C5B1DAE347E0033FE37 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DEDC5C5A1DAE347E0033FE37 /* main.m */; };
 		DEDC5C5E1DAE347E0033FE37 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DEDC5C5D1DAE347E0033FE37 /* AppDelegate.m */; };
@@ -506,6 +509,10 @@
 		DE5F7AE71DB0A04F006DC32F /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
 		DE5F7AE91DB0B548006DC32F /* BCA_Rates.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = BCA_Rates.sqlite; sourceTree = "<group>"; };
 		DE5F7AEA1DB0B548006DC32F /* DataReferral.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = DataReferral.sqlite; sourceTree = "<group>"; };
+		DE5F7AF41DB0E3EF006DC32F /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		DE5F7AF61DB0E759006DC32F /* SharedStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SharedStoryboard.storyboard; sourceTree = "<group>"; };
+		DE5F7AF81DB0E942006DC32F /* RelationshipPopoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RelationshipPopoverViewController.h; sourceTree = "<group>"; };
+		DE5F7AF91DB0E942006DC32F /* RelationshipPopoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RelationshipPopoverViewController.m; sourceTree = "<group>"; };
 		DEC8461F1DAF99890081DEF7 /* gendb.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = gendb.sh; path = database/gendb.sh; sourceTree = "<group>"; };
 		DEDC5C561DAE347E0033FE37 /* MobileOfficeSolution.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobileOfficeSolution.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEDC5C5A1DAE347E0033FE37 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -1276,6 +1283,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE5F7AF51DB0E3EF006DC32F /* CoreText.framework in Frameworks */,
 				DE5F7AE81DB0A04F006DC32F /* libstdc++.tbd in Frameworks */,
 				DEDC621E1DAF86600033FE37 /* CoreData.framework in Frameworks */,
 				DEDC5E4C1DAE44F40033FE37 /* CoreGraphics.framework in Frameworks */,
@@ -1462,6 +1470,7 @@
 				DEDC5CB11DAE37C90033FE37 /* MainScreen.m */,
 				DEDC5CB21DAE37C90033FE37 /* SIMenuViewController.h */,
 				DEDC5CB31DAE37C90033FE37 /* SIMenuViewController.m */,
+				DE5F7AF61DB0E759006DC32F /* SharedStoryboard.storyboard */,
 				DEDC60BE1DAF6D0B0033FE37 /* HLAWPStoryboard.storyboard */,
 			);
 			name = SalesIllustration;
@@ -1938,6 +1947,7 @@
 		DEDC5D9A1DAE3FC40033FE37 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DE5F7AF41DB0E3EF006DC32F /* CoreText.framework */,
 				DE5F7AE71DB0A04F006DC32F /* libstdc++.tbd */,
 				DEDC601B1DAF4FC70033FE37 /* libHtmlGenerator.a */,
 				DEDC60121DAE601A0033FE37 /* libsqlite3.tbd */,
@@ -2239,6 +2249,8 @@
 				DEDC5E7D1DAE46850033FE37 /* DateViewController.m */,
 				DEDC5E791DAE46730033FE37 /* OccupationList.h */,
 				DEDC5E7A1DAE46730033FE37 /* OccupationList.m */,
+				DE5F7AF81DB0E942006DC32F /* RelationshipPopoverViewController.h */,
+				DE5F7AF91DB0E942006DC32F /* RelationshipPopoverViewController.m */,
 				DEDC5E761DAE46640033FE37 /* RetreivePwdTbViewController.h */,
 				DEDC5E771DAE46640033FE37 /* RetreivePwdTbViewController.m */,
 				DEDC5E731DAE46570033FE37 /* siListingSortBy.h */,
@@ -3029,6 +3041,7 @@
 				DEDC5FAD1DAE49BD0033FE37 /* Reader-Export.png in Resources */,
 				DEDC607C1DAF69100033FE37 /* login_box.png in Resources */,
 				DEDC60841DAF69100033FE37 /* Icon_SaveAs.png in Resources */,
+				DE5F7AF71DB0E759006DC32F /* SharedStoryboard.storyboard in Resources */,
 				DEDC5C691DAE347E0033FE37 /* LaunchScreen.storyboard in Resources */,
 				DEDC61B91DAF7DA80033FE37 /* hla_use_only.png in Resources */,
 				DEDC5F991DAE49BD0033FE37 /* AppIcon-072.png in Resources */,
@@ -3384,6 +3397,7 @@
 				DEDC5EB41DAE47570033FE37 /* KodePosInfo.m in Sources */,
 				DEDC5F211DAE486A0033FE37 /* DDXMLElement.m in Sources */,
 				DEDC61051DAF79350033FE37 /* SPAJ Main.m in Sources */,
+				DE5F7AFA1DB0E942006DC32F /* RelationshipPopoverViewController.m in Sources */,
 				DEDC62111DAF81BC0033FE37 /* PDFFormTextField.m in Sources */,
 				DEDC5DFB1DAE41B30033FE37 /* TabValidation.m in Sources */,
 				DEDC5D2F1DAE39420033FE37 /* ModelSPAJTransaction.m in Sources */,

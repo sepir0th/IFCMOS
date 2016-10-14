@@ -17,6 +17,7 @@
 #import "AppDelegate.h"
 #import "SecondLAViewController.h"
 #import "ModelSIPOData.h"
+#import "RelationshipPopoverViewController.h"
 
 @class NewLAViewController;
 @protocol NewLAViewControllerDelegate
@@ -96,6 +97,7 @@
     id dobtanngal;
 }
 
+@property (nonatomic, strong) RelationshipPopoverViewController *RshipTypePicker;
 @property (nonatomic, strong) UIPopoverController *RshipTypePickerPopover;
 @property (nonatomic, retain) SIObj* siObj;
 @property (nonatomic, retain) PlanList *planList;

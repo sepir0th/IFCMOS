@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreText/CoreText.h>
 #import <sqlite3.h>
 #import "ProspectProfile.h"
 #import "OccupationList.h"
