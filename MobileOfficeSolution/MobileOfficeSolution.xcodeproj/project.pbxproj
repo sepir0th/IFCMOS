@@ -15,6 +15,14 @@
 		DE5F7AF51DB0E3EF006DC32F /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE5F7AF41DB0E3EF006DC32F /* CoreText.framework */; };
 		DE5F7AF71DB0E759006DC32F /* SharedStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE5F7AF61DB0E759006DC32F /* SharedStoryboard.storyboard */; };
 		DE5F7AFA1DB0E942006DC32F /* RelationshipPopoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5F7AF91DB0E942006DC32F /* RelationshipPopoverViewController.m */; };
+		DE5F7B001DB0EC0F006DC32F /* eng_BCALH_Page1.html in Resources */ = {isa = PBXBuildFile; fileRef = DE5F7AFC1DB0EC0F006DC32F /* eng_BCALH_Page1.html */; };
+		DE5F7B011DB0EC0F006DC32F /* eng_BCALH_Page2.html in Resources */ = {isa = PBXBuildFile; fileRef = DE5F7AFD1DB0EC0F006DC32F /* eng_BCALH_Page2.html */; };
+		DE5F7B021DB0EC0F006DC32F /* eng_BCALH_Page3.html in Resources */ = {isa = PBXBuildFile; fileRef = DE5F7AFE1DB0EC0F006DC32F /* eng_BCALH_Page3.html */; };
+		DE5F7B031DB0EC0F006DC32F /* eng_BCALH_Page4.html in Resources */ = {isa = PBXBuildFile; fileRef = DE5F7AFF1DB0EC0F006DC32F /* eng_BCALH_Page4.html */; };
+		DE5F7B051DB0EC97006DC32F /* LogoBCALife.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE5F7B041DB0EC97006DC32F /* LogoBCALife.jpg */; };
+		DE5F7B071DB0ED49006DC32F /* BCAHTMLlogo.png in Resources */ = {isa = PBXBuildFile; fileRef = DE5F7B061DB0ED49006DC32F /* BCAHTMLlogo.png */; };
+		DE5F7B0A1DB0ED65006DC32F /* htmlStyle.css in Resources */ = {isa = PBXBuildFile; fileRef = DE5F7B081DB0ED65006DC32F /* htmlStyle.css */; };
+		DE5F7B0B1DB0ED65006DC32F /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = DE5F7B091DB0ED65006DC32F /* style.css */; };
 		DEC846201DAF99890081DEF7 /* gendb.sh in Resources */ = {isa = PBXBuildFile; fileRef = DEC8461F1DAF99890081DEF7 /* gendb.sh */; };
 		DEDC5C5B1DAE347E0033FE37 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DEDC5C5A1DAE347E0033FE37 /* main.m */; };
 		DEDC5C5E1DAE347E0033FE37 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DEDC5C5D1DAE347E0033FE37 /* AppDelegate.m */; };
@@ -513,6 +521,14 @@
 		DE5F7AF61DB0E759006DC32F /* SharedStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SharedStoryboard.storyboard; sourceTree = "<group>"; };
 		DE5F7AF81DB0E942006DC32F /* RelationshipPopoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RelationshipPopoverViewController.h; sourceTree = "<group>"; };
 		DE5F7AF91DB0E942006DC32F /* RelationshipPopoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RelationshipPopoverViewController.m; sourceTree = "<group>"; };
+		DE5F7AFC1DB0EC0F006DC32F /* eng_BCALH_Page1.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = eng_BCALH_Page1.html; sourceTree = "<group>"; };
+		DE5F7AFD1DB0EC0F006DC32F /* eng_BCALH_Page2.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = eng_BCALH_Page2.html; sourceTree = "<group>"; };
+		DE5F7AFE1DB0EC0F006DC32F /* eng_BCALH_Page3.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = eng_BCALH_Page3.html; sourceTree = "<group>"; };
+		DE5F7AFF1DB0EC0F006DC32F /* eng_BCALH_Page4.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = eng_BCALH_Page4.html; sourceTree = "<group>"; };
+		DE5F7B041DB0EC97006DC32F /* LogoBCALife.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LogoBCALife.jpg; sourceTree = "<group>"; };
+		DE5F7B061DB0ED49006DC32F /* BCAHTMLlogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BCAHTMLlogo.png; sourceTree = "<group>"; };
+		DE5F7B081DB0ED65006DC32F /* htmlStyle.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = htmlStyle.css; sourceTree = "<group>"; };
+		DE5F7B091DB0ED65006DC32F /* style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
 		DEC8461F1DAF99890081DEF7 /* gendb.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = gendb.sh; path = database/gendb.sh; sourceTree = "<group>"; };
 		DEDC5C561DAE347E0033FE37 /* MobileOfficeSolution.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobileOfficeSolution.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEDC5C5A1DAE347E0033FE37 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -1314,6 +1330,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DE5F7AFB1DB0EC00006DC32F /* IllustrationHTML */ = {
+			isa = PBXGroup;
+			children = (
+				DE5F7B081DB0ED65006DC32F /* htmlStyle.css */,
+				DE5F7B091DB0ED65006DC32F /* style.css */,
+				DE5F7AFC1DB0EC0F006DC32F /* eng_BCALH_Page1.html */,
+				DE5F7AFD1DB0EC0F006DC32F /* eng_BCALH_Page2.html */,
+				DE5F7AFE1DB0EC0F006DC32F /* eng_BCALH_Page3.html */,
+				DE5F7AFF1DB0EC0F006DC32F /* eng_BCALH_Page4.html */,
+			);
+			name = IllustrationHTML;
+			sourceTree = "<group>";
+		};
 		DEDC5C4D1DAE347E0033FE37 = {
 			isa = PBXGroup;
 			children = (
@@ -1456,6 +1485,7 @@
 		DEDC5C8F1DAE34F40033FE37 /* SalesIllustration */ = {
 			isa = PBXGroup;
 			children = (
+				DE5F7AFB1DB0EC00006DC32F /* IllustrationHTML */,
 				DEDC5F041DAE48130033FE37 /* TableViewCell */,
 				DEDC5E471DAE44B40033FE37 /* RATESDBModel */,
 				DEDC5C9E1DAE35960033FE37 /* LA */,
@@ -2524,6 +2554,8 @@
 			isa = PBXGroup;
 			children = (
 				DEDC60C01DAF73840033FE37 /* icon */,
+				DE5F7B061DB0ED49006DC32F /* BCAHTMLlogo.png */,
+				DE5F7B041DB0EC97006DC32F /* LogoBCALife.jpg */,
 				DEDC60241DAF69100033FE37 /* watermarkID.png */,
 				DEDC60251DAF69100033FE37 /* watermark overlay.png */,
 				DEDC60261DAF69100033FE37 /* pensign.png */,
@@ -3028,6 +3060,7 @@
 				DEDC5DCD1DAE417A0033FE37 /* PremiumKeluargaku.xib in Resources */,
 				DEDC5FE61DAE53A50033FE37 /* SPAJRequestCell.xib in Resources */,
 				DEDC60A31DAF69100033FE37 /* NewHLAHeader.png in Resources */,
+				DE5F7B001DB0EC0F006DC32F /* eng_BCALH_Page1.html in Resources */,
 				DEDC60851DAF69100033FE37 /* Icon Brochure & save as-01-02.png in Resources */,
 				DEDC61331DAF797E0033FE37 /* SPAJ Main.xib in Resources */,
 				DEDC60AC1DAF69100033FE37 /* Bachground.png in Resources */,
@@ -3061,6 +3094,7 @@
 				DEDC60A81DAF69100033FE37 /* HeaderHLA.png in Resources */,
 				DEDC612E1DAF797E0033FE37 /* SPAJ Add Signature.xib in Resources */,
 				DEDC5F9D1DAE49BD0033FE37 /* AppIcon-144.png in Resources */,
+				DE5F7B051DB0EC97006DC32F /* LogoBCALife.jpg in Resources */,
 				DEDC61961DAF7D3E0033FE37 /* eSignController.xib in Resources */,
 				DEDC60BD1DAF6B360033FE37 /* ProspectProfileStoryboard.storyboard in Resources */,
 				DEDC60B61DAF69100033FE37 /* iconNotComplete.png in Resources */,
@@ -3101,6 +3135,7 @@
 				DEDC60AF1DAF69100033FE37 /* prospect_100_2.png in Resources */,
 				DEDC607A1DAF69100033FE37 /* Login Page Bless_english_final_2-01.jpg in Resources */,
 				DEDC5FB01DAE49BD0033FE37 /* Reader-Mark-N.png in Resources */,
+				DE5F7B071DB0ED49006DC32F /* BCAHTMLlogo.png in Resources */,
 				DEDC61B31DAF7D9D0033FE37 /* IDTypePicker.xib in Resources */,
 				DEDC5F161DAE48290033FE37 /* SIMenuTableViewCell.xib in Resources */,
 				DEDC5DB41DAE40880033FE37 /* selectionIndicatorImage.png in Resources */,
@@ -3128,10 +3163,12 @@
 				DEDC61A61DAF7D920033FE37 /* SnapCustomCell.xib in Resources */,
 				DEDC60821DAF69100033FE37 /* Icon_Brochure.png in Resources */,
 				DEDC60B51DAF69100033FE37 /* iconComplete.png in Resources */,
+				DE5F7B0A1DB0ED65006DC32F /* htmlStyle.css in Resources */,
 				DEDC5FA91DAE49BD0033FE37 /* Reader-Button-N@3x.png in Resources */,
 				DEDC60871DAF69100033FE37 /* Icon Brochure & save as-01-03.png in Resources */,
 				DEDC5F981DAE49BD0033FE37 /* AppIcon-057.png in Resources */,
 				DEDC5FAF1DAE49BD0033FE37 /* Reader-Export@3x.png in Resources */,
+				DE5F7B031DB0EC0F006DC32F /* eng_BCALH_Page4.html in Resources */,
 				DEDC5FB81DAE49BD0033FE37 /* Reader-Print@3x.png in Resources */,
 				DEDC609A1DAF69100033FE37 /* customer_fact_findv3.png in Resources */,
 				DEDC60901DAF69100033FE37 /* Tablet-App-Redesign-Slices.jpg in Resources */,
@@ -3143,6 +3180,7 @@
 				DEDC5FB41DAE49BD0033FE37 /* Reader-Mark-Y@2x.png in Resources */,
 				DEDC60931DAF69100033FE37 /* eAplication@2x_20141118.png in Resources */,
 				DEDC5FB11DAE49BD0033FE37 /* Reader-Mark-N@2x.png in Resources */,
+				DE5F7B0B1DB0ED65006DC32F /* style.css in Resources */,
 				DEDC60CE1DAF747D0033FE37 /* btn_prospect_on.png in Resources */,
 				DEDC60961DAF69100033FE37 /* client_profile@2x_20141118.png in Resources */,
 				DEDC5FB61DAE49BD0033FE37 /* Reader-Print.png in Resources */,
@@ -3165,6 +3203,7 @@
 				DEDC608A1DAF69100033FE37 /* logo bless final-01.png in Resources */,
 				DEDC61381DAF797E0033FE37 /* SPAJ Calon Tertanggung.xib in Resources */,
 				DEDC61371DAF797E0033FE37 /* SPAJ Calon Pemegang Polis.xib in Resources */,
+				DE5F7B021DB0EC0F006DC32F /* eng_BCALH_Page3.html in Resources */,
 				DEDC601A1DAF4F2A0033FE37 /* MainStoryboard.storyboard in Resources */,
 				DEDC60C21DAF74290033FE37 /* btn_home.png in Resources */,
 				DEDC61181DAF796E0033FE37 /* SIListingForSPAJTableViewCell.xib in Resources */,
@@ -3174,6 +3213,7 @@
 				DEDC60761DAF69100033FE37 /* undo.png in Resources */,
 				DEDC61301DAF797E0033FE37 /* SPAJ Add Menu.xib in Resources */,
 				DEDC607E1DAF69100033FE37 /* btn_reset.png in Resources */,
+				DE5F7B011DB0EC0F006DC32F /* eng_BCALH_Page2.html in Resources */,
 				DEDC607D1DAF69100033FE37 /* bless final-02.png in Resources */,
 				DEDC60A61DAF69100033FE37 /* Sales_Illustration@2x.png in Resources */,
 				DEDC5FBB1DAE49BD0033FE37 /* Reader-Thumbs@3x.png in Resources */,
