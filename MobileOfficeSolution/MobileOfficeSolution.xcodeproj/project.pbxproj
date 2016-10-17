@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		DE1514DA1DB4A80800C429A2 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1514D91DB4A80800C429A2 /* Reachability.m */; };
+		DE1514DE1DB4AAEF00C429A2 /* AppDisclaimer.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1514DC1DB4AAEF00C429A2 /* AppDisclaimer.m */; };
+		DE1514DF1DB4AAEF00C429A2 /* AppDisclaimer.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE1514DD1DB4AAEF00C429A2 /* AppDisclaimer.xib */; };
 		DE5F7AE41DB08ED2006DC32F /* database in Resources */ = {isa = PBXBuildFile; fileRef = DE5F7AE31DB08ED2006DC32F /* database */; };
 		DE5F7AE61DB090B1006DC32F /* MOSDB.sqlite.sql in Resources */ = {isa = PBXBuildFile; fileRef = DE5F7AE51DB090B1006DC32F /* MOSDB.sqlite.sql */; };
 		DE5F7AE81DB0A04F006DC32F /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DE5F7AE71DB0A04F006DC32F /* libstdc++.tbd */; };
@@ -91,8 +93,6 @@
 		DEDC5D7E1DAE3CDD0033FE37 /* WebServiceUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = DEDC5D751DAE3CDD0033FE37 /* WebServiceUtilities.m */; };
 		DEDC5D7F1DAE3CDD0033FE37 /* WebResponObj.m in Sources */ = {isa = PBXBuildFile; fileRef = DEDC5D771DAE3CDD0033FE37 /* WebResponObj.m */; };
 		DEDC5D871DAE3D7F0033FE37 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DEDC5D861DAE3D7F0033FE37 /* libxml2.tbd */; };
-		DEDC5D8B1DAE3FA00033FE37 /* AppDisclaimer.m in Sources */ = {isa = PBXBuildFile; fileRef = DEDC5D891DAE3FA00033FE37 /* AppDisclaimer.m */; };
-		DEDC5D8C1DAE3FA00033FE37 /* AppDisclaimer.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEDC5D8A1DAE3FA00033FE37 /* AppDisclaimer.xib */; };
 		DEDC5D961DAE3FBB0033FE37 /* LoginDBManagement.m in Sources */ = {isa = PBXBuildFile; fileRef = DEDC5D8F1DAE3FBB0033FE37 /* LoginDBManagement.m */; };
 		DEDC5D971DAE3FBB0033FE37 /* SynchDaysCounter.m in Sources */ = {isa = PBXBuildFile; fileRef = DEDC5D911DAE3FBB0033FE37 /* SynchDaysCounter.m */; };
 		DEDC5D981DAE3FBB0033FE37 /* SpinnerUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = DEDC5D931DAE3FBB0033FE37 /* SpinnerUtilities.m */; };
@@ -514,6 +514,9 @@
 /* Begin PBXFileReference section */
 		DE1514D81DB4A80800C429A2 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		DE1514D91DB4A80800C429A2 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		DE1514DB1DB4AAEF00C429A2 /* AppDisclaimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDisclaimer.h; sourceTree = "<group>"; };
+		DE1514DC1DB4AAEF00C429A2 /* AppDisclaimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDisclaimer.m; sourceTree = "<group>"; };
+		DE1514DD1DB4AAEF00C429A2 /* AppDisclaimer.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AppDisclaimer.xib; sourceTree = "<group>"; };
 		DE5F7AE31DB08ED2006DC32F /* database */ = {isa = PBXFileReference; lastKnownFileType = folder; path = database; sourceTree = "<group>"; };
 		DE5F7AE51DB090B1006DC32F /* MOSDB.sqlite.sql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = MOSDB.sqlite.sql; path = database/query/MOSDB.sqlite.sql; sourceTree = "<group>"; };
 		DE5F7AE71DB0A04F006DC32F /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
@@ -663,9 +666,6 @@
 		DEDC5D761DAE3CDD0033FE37 /* WebResponObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebResponObj.h; sourceTree = "<group>"; };
 		DEDC5D771DAE3CDD0033FE37 /* WebResponObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebResponObj.m; sourceTree = "<group>"; };
 		DEDC5D861DAE3D7F0033FE37 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
-		DEDC5D881DAE3FA00033FE37 /* AppDisclaimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDisclaimer.h; path = ../../../TMLI_IOS_MPOS/InfoConnect/HLA/AppDisclaimer.h; sourceTree = "<group>"; };
-		DEDC5D891DAE3FA00033FE37 /* AppDisclaimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDisclaimer.m; path = ../../../TMLI_IOS_MPOS/InfoConnect/HLA/AppDisclaimer.m; sourceTree = "<group>"; };
-		DEDC5D8A1DAE3FA00033FE37 /* AppDisclaimer.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AppDisclaimer.xib; path = ../../../TMLI_IOS_MPOS/InfoConnect/HLA/AppDisclaimer.xib; sourceTree = "<group>"; };
 		DEDC5D8D1DAE3FBB0033FE37 /* LoginMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginMacros.h; sourceTree = "<group>"; };
 		DEDC5D8E1DAE3FBB0033FE37 /* LoginDBManagement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginDBManagement.h; sourceTree = "<group>"; };
 		DEDC5D8F1DAE3FBB0033FE37 /* LoginDBManagement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginDBManagement.m; sourceTree = "<group>"; };
@@ -1633,9 +1633,9 @@
 		DEDC5C991DAE35670033FE37 /* Disclaimer */ = {
 			isa = PBXGroup;
 			children = (
-				DEDC5D881DAE3FA00033FE37 /* AppDisclaimer.h */,
-				DEDC5D891DAE3FA00033FE37 /* AppDisclaimer.m */,
-				DEDC5D8A1DAE3FA00033FE37 /* AppDisclaimer.xib */,
+				DE1514DB1DB4AAEF00C429A2 /* AppDisclaimer.h */,
+				DE1514DC1DB4AAEF00C429A2 /* AppDisclaimer.m */,
+				DE1514DD1DB4AAEF00C429A2 /* AppDisclaimer.xib */,
 			);
 			name = Disclaimer;
 			sourceTree = "<group>";
@@ -3067,7 +3067,6 @@
 				DEDC60CD1DAF747D0033FE37 /* btn_prospect_off.png in Resources */,
 				DEDC60721DAF69100033FE37 /* cancel.png in Resources */,
 				DEDC609E1DAF69100033FE37 /* eAplicationv2.png in Resources */,
-				DEDC5D8C1DAE3FA00033FE37 /* AppDisclaimer.xib in Resources */,
 				DEDC60781DAF69100033FE37 /* Signature Filled.png in Resources */,
 				DEDC613E1DAF797E0033FE37 /* SPAJFilesViewController.xib in Resources */,
 				DEDC60831DAF69100033FE37 /* Icon_SaveAs_Gray_BG.png in Resources */,
@@ -3148,6 +3147,7 @@
 				DE5F7AE61DB090B1006DC32F /* MOSDB.sqlite.sql in Resources */,
 				DEDC60B71DAF69100033FE37 /* disclosure_indicator.png in Resources */,
 				DEDC5FB31DAE49BD0033FE37 /* Reader-Mark-Y.png in Resources */,
+				DE1514DF1DB4AAEF00C429A2 /* AppDisclaimer.xib in Resources */,
 				DEDC60A71DAF69100033FE37 /* Rectangle.png in Resources */,
 				DEDC615A1DAF7BD00033FE37 /* Localizable.strings in Resources */,
 				DEDC613F1DAF797E0033FE37 /* SPAJIDCapturedViewController.xib in Resources */,
@@ -3339,7 +3339,6 @@
 				DEDC615B1DAF7BD00033FE37 /* Dimension.m in Sources */,
 				DEDC61471DAF799B0033FE37 /* Bless_SPAJ.xcdatamodel in Sources */,
 				DEDC5E551DAE455B0033FE37 /* ClientTabBarButton.m in Sources */,
-				DEDC5D8B1DAE3FA00033FE37 /* AppDisclaimer.m in Sources */,
 				DEDC61D21DAF80A60033FE37 /* myLable.m in Sources */,
 				DEDC60011DAE57440033FE37 /* UIButton+Property.m in Sources */,
 				DEDC5D341DAE39420033FE37 /* ModelSPAJDetail.m in Sources */,
@@ -3538,6 +3537,7 @@
 				DEDC61AF1DAF7D9D0033FE37 /* CardSnap.m in Sources */,
 				DEDC5CDF1DAE38B60033FE37 /* DataManager.m in Sources */,
 				DEDC61F51DAF81860033FE37 /* PDFFormAction.m in Sources */,
+				DE1514DE1DB4AAEF00C429A2 /* AppDisclaimer.m in Sources */,
 				DEDC5E371DAE43590033FE37 /* AFURLConnectionOperation.m in Sources */,
 				DEDC5FE11DAE539B0033FE37 /* SPAJTableCell.m in Sources */,
 				DEDC60FD1DAF79350033FE37 /* SPAJPDFWebViewController.m in Sources */,
