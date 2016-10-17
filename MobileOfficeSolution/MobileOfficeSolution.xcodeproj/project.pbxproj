@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE1514DA1DB4A80800C429A2 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1514D91DB4A80800C429A2 /* Reachability.m */; };
 		DE5F7AE41DB08ED2006DC32F /* database in Resources */ = {isa = PBXBuildFile; fileRef = DE5F7AE31DB08ED2006DC32F /* database */; };
 		DE5F7AE61DB090B1006DC32F /* MOSDB.sqlite.sql in Resources */ = {isa = PBXBuildFile; fileRef = DE5F7AE51DB090B1006DC32F /* MOSDB.sqlite.sql */; };
 		DE5F7AE81DB0A04F006DC32F /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DE5F7AE71DB0A04F006DC32F /* libstdc++.tbd */; };
@@ -81,7 +82,6 @@
 		DEDC5D431DAE39DB0033FE37 /* ChangePassword.m in Sources */ = {isa = PBXBuildFile; fileRef = DEDC5D3F1DAE39DB0033FE37 /* ChangePassword.m */; };
 		DEDC5D461DAE3B930033FE37 /* CarouselViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEDC5D451DAE3B930033FE37 /* CarouselViewController.m */; };
 		DEDC5D481DAE3C4D0033FE37 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEDC5D471DAE3C4D0033FE37 /* CFNetwork.framework */; };
-		DEDC5D4C1DAE3C7D0033FE37 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = DEDC5D4B1DAE3C7D0033FE37 /* Reachability.m */; };
 		DEDC5D781DAE3CDD0033FE37 /* AgentWS.m in Sources */ = {isa = PBXBuildFile; fileRef = DEDC5D691DAE3CDD0033FE37 /* AgentWS.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		DEDC5D791DAE3CDD0033FE37 /* NSDate+ISO8601Parsing.m in Sources */ = {isa = PBXBuildFile; fileRef = DEDC5D6C1DAE3CDD0033FE37 /* NSDate+ISO8601Parsing.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		DEDC5D7A1DAE3CDD0033FE37 /* NSDate+ISO8601Unparsing.m in Sources */ = {isa = PBXBuildFile; fileRef = DEDC5D6D1DAE3CDD0033FE37 /* NSDate+ISO8601Unparsing.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -512,6 +512,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DE1514D81DB4A80800C429A2 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		DE1514D91DB4A80800C429A2 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		DE5F7AE31DB08ED2006DC32F /* database */ = {isa = PBXFileReference; lastKnownFileType = folder; path = database; sourceTree = "<group>"; };
 		DE5F7AE51DB090B1006DC32F /* MOSDB.sqlite.sql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = MOSDB.sqlite.sql; path = database/query/MOSDB.sqlite.sql; sourceTree = "<group>"; };
 		DE5F7AE71DB0A04F006DC32F /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
@@ -644,8 +646,6 @@
 		DEDC5D441DAE3B930033FE37 /* CarouselViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarouselViewController.h; sourceTree = "<group>"; };
 		DEDC5D451DAE3B930033FE37 /* CarouselViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarouselViewController.m; sourceTree = "<group>"; };
 		DEDC5D471DAE3C4D0033FE37 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
-		DEDC5D4A1DAE3C7D0033FE37 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = ../../../TMLI_IOS_MPOS/InfoConnect/Reachability.h; sourceTree = "<group>"; };
-		DEDC5D4B1DAE3C7D0033FE37 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = ../../../TMLI_IOS_MPOS/InfoConnect/Reachability.m; sourceTree = "<group>"; };
 		DEDC5D681DAE3CDD0033FE37 /* AgentWS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AgentWS.h; sourceTree = "<group>"; };
 		DEDC5D691DAE3CDD0033FE37 /* AgentWS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AgentWS.m; sourceTree = "<group>"; };
 		DEDC5D6A1DAE3CDD0033FE37 /* USAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = USAdditions.h; sourceTree = "<group>"; };
@@ -1968,8 +1968,8 @@
 		DEDC5D491DAE3C6C0033FE37 /* Reachability */ = {
 			isa = PBXGroup;
 			children = (
-				DEDC5D4A1DAE3C7D0033FE37 /* Reachability.h */,
-				DEDC5D4B1DAE3C7D0033FE37 /* Reachability.m */,
+				DE1514D81DB4A80800C429A2 /* Reachability.h */,
+				DE1514D91DB4A80800C429A2 /* Reachability.m */,
 			);
 			name = Reachability;
 			sourceTree = "<group>";
@@ -3545,8 +3545,8 @@
 				DEDC61F81DAF81860033FE37 /* PDFPage.m in Sources */,
 				DEDC5F721DAE49AE0033FE37 /* ThumbsViewController.m in Sources */,
 				DEDC5D321DAE39420033FE37 /* ModelSPAJHtml.m in Sources */,
+				DE1514DA1DB4A80800C429A2 /* Reachability.m in Sources */,
 				DEDC5D7A1DAE3CDD0033FE37 /* NSDate+ISO8601Unparsing.m in Sources */,
-				DEDC5D4C1DAE3C7D0033FE37 /* Reachability.m in Sources */,
 				DEDC61F21DAF81860033FE37 /* PDFDictionary.m in Sources */,
 				DEDC5D1F1DAE39420033FE37 /* ModelMaritalStatus.m in Sources */,
 				DEDC60021DAE57440033FE37 /* UIElementsManagement.m in Sources */,
